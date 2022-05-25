@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+func main(){
+	  var  a,b,c int
+	  fmt.Println("A sonini kirting ")
+	  fmt.Scanf("%d",&a)
+	  fmt.Println("B sonini kirting")
+	  fmt.Scanf("%d",&b)
+	  fmt.Println("C sonini kirting")
+	  fmt.Scanf("%d",&c)
+
+	  
+ if (a > 0 && b<=0 && c <=0 || a <= 0 && b > 0 && c <= 0 || a <= 0 && b <= 0 && c > 0){
+	 fmt.Println("faqat bittasi musbat")
+
+ } else {
+	 fmt.Println("Qayta kirting nimadir xatoda")
+ }
+
+
+}
