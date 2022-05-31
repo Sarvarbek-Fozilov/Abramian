@@ -7,60 +7,62 @@ func main(){
 	fmt.Scanf("%d",&y)
 
 	switch y/10{
+	case 1:
+		fmt.Printf("O'n ")	
 	case 2:
-		fmt.Println("Yigirma")
+		fmt.Printf("Yigirma ")
 	case 3:
-		fmt.Println("O'ttiz")
+		fmt.Printf("O'ttiz ")
 	case 4:
-		fmt.Println("Qirq")
+		fmt.Printf("Qirq ")
 	case 5:
-		fmt.Println("Ellik")
+		fmt.Printf("Ellik ")
 	case 6:
-		fmt.Println("Oltmish")    
+		fmt.Printf("Oltmish ")    
 	}
 	switch y%10{
 	case 1:
-		fmt.Println("bir")
+		fmt.Printf("bir ")
 	case 2:
-		fmt.Println("ikki")
+		fmt.Printf("ikki ")
 	case 3:
-		fmt.Println("Uch")
+		fmt.Printf("Uch ")
 	case 4:
-		fmt.Println("To'rt")
+		fmt.Printf("To'rt ")
 	case 5:
-		fmt.Println("besh")
+		fmt.Printf("besh ")
 	case 6:
-		fmt.Println("Olti")
+		fmt.Printf("Olti ")
 	case 7:
-		fmt.Println("yetti")
+		fmt.Printf("yetti ")
 	case 8:
-		fmt.Println("Sakkiz")
+		fmt.Printf("Sakkiz ")
 	case 9:
-		fmt.Println("To'qqiz")
+		fmt.Printf("To'qqiz ")
 
 	}
 	switch (y%10) {
 	case 0:
-		fmt.Println("yosh.\n")
+		fmt.Printf("yosh.\n")
 	case 1:
-		fmt.Println("yosh.\n")
+		fmt.Println("yosh.")
 	case 2:
-		fmt.Println("yosh.\n")
+		fmt.Println("yosh.")
 		
 	case 3:
-		fmt.Println("yosh.\n")
+		fmt.Println("yosh.")
 	case 4:
-		fmt.Println("yosh.\n")
+		fmt.Println("yosh.")
 	case 5:
-		fmt.Println("yosh.\n")
+		fmt.Println("yosh.")
 
 	case 6:
-		fmt.Println("yosh.\n")
+		fmt.Println("yosh.")
 	case 7:
-		fmt.Println("yosh.\n")
+		fmt.Println("yosh.")
 	case 8:
-		fmt.Println("yosh.\n")
+		fmt.Println("yosh.")
 	case 9:
-		fmt.Println("yosh.\n")
+		fmt.Println("yosh.")
 	}	
 }
